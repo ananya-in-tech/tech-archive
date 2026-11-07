@@ -25,7 +25,7 @@ Whether you are fixing a typo, adding an optimized solution, breaking down an ad
 
 This repository is built around a dual-pillar ecosystem:
 1. **The Vault (Repository Core):** Topic-wise structured notes, conceptual breakdowns, curated problem lists, and multi-language solutions.
-2. **The Forum (GitHub Discussions):** Real-time problem breakdowns, automated LeetCode & Codeforces briefings, contest strategy chats, and Q&A debugging.
+2. **The Forum (GitHub Discussions):** Real-time problem breakdowns, automated LeetCode, Codeforces & AtCoder briefings, contest strategy chats, and Q&A debugging.
 
 Before contributing, please take a moment to read this guide to ensure your work aligns with our codebase design principles, directory structure, and community vision.
 
@@ -51,7 +51,7 @@ There are many ways to contribute to this ecosystem:
 | :--- | :--- | :--- |
 | **📁 Code Solutions** | Add optimal or multi-approach solutions (C++, Java, Python, Go, JS/TS, Rust). | **The Vault** (`DSA/` subdirectories) |
 | **📚 Topic Notes & Diagrams** | Enhance conceptual explanations, add visual diagrams, or update `Practice.md` sheets. | **The Vault** (`DSA/` subdirectories) |
-| **🤖 Automated Discussions** | Start problem study threads in LeetCode/Codeforces Arena using automated bots. | **The Forum** (Discussions tab) |
+| **🤖 Automated Discussions** | Start problem study threads in the LeetCode, Codeforces or AtCoder Arena using automated bots. | **The Forum** (Discussions tab) |
 | **❓ Peer Debugging** | Help resolve failing test cases or edge cases in **The Doubt Box**. | **The Forum** (Discussions tab) |
 | **🛠️ Automation & Tooling** | Improve GitHub Actions workflows (`.github/workflows/`) or issue blueprints. | Repository Root |
 | **🐛 Bug Reports & Ideas** | Report broken links, incorrect complexity notes, or feature proposals. | GitHub Issues |
@@ -185,6 +185,7 @@ Our **GitHub Discussions** space is the heartbeat of this community! When intera
     # Problem Index
     A
     ```
+  * In **AtCoder Arena**, paste the problem link (e.g., `https://atcoder.jp/contests/abc300/tasks/abc300_a`) or use the same headings with an AtCoder contest ID, such as `abc300`.
 * **Keep Threads Consolidated:** Search for existing threads before creating a new discussion for the same problem. Add your approach or doubts as a reply inside the existing master thread.
 * **Be Constructive in Code Reviews & Doubt Box:** When helping peers in **The Doubt Box**, highlight the bug clearly, explain the underlying cause, and offer hints before revealing full solutions.
 

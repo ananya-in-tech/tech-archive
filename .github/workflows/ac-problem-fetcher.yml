@@ -1,0 +1,46 @@
+name: 🤖 AtCoder Problem Fetcher
+
+on:
+  discussion:
+    types: [created]
+
+jobs:
+  fetch-ac-metadata:
+    if: github.event.discussion.category.slug == 'atcoder-arena'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      discussions: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Fetch Problem from AtCoder
+        env:
+          DISCUSSION_BODY: ${{ github.event.discussion.body }}
+        run: python scripts/atcoder_problem_fetcher.py
+
+      - name: Post Summary Comment to Discussion Thread
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISCUSSION_ID: ${{ github.event.discussion.node_id }}
+        run: |
+          if [ -f comment_body.txt ]; then
+            gh api graphql -f query='
+              mutation($discussionId: ID!, $body: String!) {
+                addDiscussionComment(input: {discussionId: $discussionId, body: $body}) {
+                  comment { id }
+                }
+              }' -f discussionId="$DISCUSSION_ID" -F body=@comment_body.txt
+          else
+            echo "Skipping comment injection: No metadata generated."
+          fi

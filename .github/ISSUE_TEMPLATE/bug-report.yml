@@ -15,7 +15,7 @@ body:
       description: Explain step-by-step how we can reproduce the error.
       placeholder: |
         1. Go to Discussions
-        2. Click on 'New Discussion' and choose 'Codeforces Arena' or 'LeetCode Arena'
+        2. Click on 'New Discussion' and choose 'Codeforces Arena', 'LeetCode Arena' or 'AtCoder Arena'
         3. Paste the following text...
         4. See the workflow run fail with error...
     validations:
