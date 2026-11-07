@@ -1,16 +1,16 @@
 <!-- markdownlint-disable MD041 -->
 <div align="center">
-  <h1>🤝 Contributing to DSA Discussions</h1>
+  <h1>🤝 Contributing to Tech Archive</h1>
   <p><b>An elegant, community-driven ecosystem designed for mastering Data Structures and Algorithms.</b></p>
 
-  <a href="https://github.com/ananya-09/DSA-Discussions">
-    <img src="https://img.shields.io/github/repo-size/ananya-09/DSA-Discussions?color=FFE75E&style=flat-square" alt="Repo Size">
+  <a href="https://github.com/ananya-in-tech/tech-archive">
+    <img src="https://img.shields.io/github/repo-size/ananya-in-tech/tech-archive?color=4B6973&labelColor=0D0D0D&style=flat-square" alt="Repo Size">
   </a>
-  <a href="https://github.com/ananya-09/DSA-Discussions/discussions">
-    <img src="https://img.shields.io/github/discussions/ananya-09/DSA-Discussions?color=00B8A9&style=flat-square" alt="Discussions">
+  <a href="https://github.com/ananya-in-tech/tech-archive/discussions">
+    <img src="https://img.shields.io/github/discussions/ananya-in-tech/tech-archive?color=4B6973&labelColor=0D0D0D&style=flat-square" alt="Discussions">
   </a>
-  <a href="https://github.com/ananya-09/DSA-Discussions/pulls">
-    <img src="https://img.shields.io/github/issues-pr/ananya-09/DSA-Discussions?color=7B61FF&style=flat-square" alt="PRs Welcome">
+  <a href="https://github.com/ananya-in-tech/tech-archive/pulls">
+    <img src="https://img.shields.io/github/issues-pr/ananya-in-tech/tech-archive?color=4B6973&labelColor=0D0D0D&style=flat-square" alt="PRs Welcome">
   </a>
 </div>
 
@@ -19,7 +19,7 @@
 
 ## 🌟 Welcome to the Community!
 
-First off, thank you for considering contributing to **DSA Discussions**! 🎉
+First off, thank you for considering contributing to **Tech Archive**! 🎉
 
 Whether you are fixing a typo, adding an optimized solution, breaking down an advanced Dynamic Programming pattern, improving workflow automation, or helping a peer debug an edge case in the Doubt Box—**your contribution matters**.
 
@@ -33,7 +33,7 @@ Before contributing, please take a moment to read this guide to ensure your work
 
 ## 🧭 Principles & Vision
 
-Every contribution to **DSA Discussions** should reflect our core values:
+Every contribution to **Tech Archive** should reflect our core values:
 
 * **Structured Learning:** Avoid unstructured file dumps at the root directory. Everything has its designated home.
 * **Intuition First:** Explain *why* a solution works before jumping into code.
@@ -70,8 +70,8 @@ Follow these steps to submit your contributions smoothly:
 Start by forking the repository to your own GitHub account, then clone it locally:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/DSA-Discussions.git
-cd DSA-Discussions
+git clone https://github.com/YOUR-USERNAME/tech-archive.git
+cd tech-archive
 ```
 
 ### 2️⃣ Create a Descriptive Feature Branch
@@ -157,7 +157,7 @@ We encourage clear, standard commit messages following Conventional Commits:
    ```bash
    git push origin feat/arrays-two-sum-cpp
    ```
-2. Open a Pull Request on GitHub against the `main` branch of `ananya-09/DSA-Discussions`.
+2. Open a Pull Request on GitHub against the `main` branch of `ananya-in-tech/tech-archive`.
 3. Fill out the PR template or description completely:
    * Link relevant Issues or Discussions if applicable.
    * State the problem solved, language used, and complexities.
@@ -193,7 +193,7 @@ Our **GitHub Discussions** space is the heartbeat of this community! When intera
 
 ## 📜 Code of Conduct
 
-We are committed to making participation in **DSA Discussions** a welcoming, safe, and respectful experience for everyone:
+We are committed to making participation in **Tech Archive** a welcoming, safe, and respectful experience for everyone:
 
 * Be respectful and inclusive of all skill levels, from total beginners to experienced competitive programmers.
 * Accept constructive criticism gracefully during peer reviews.
@@ -204,8 +204,8 @@ We are committed to making participation in **DSA Discussions** a welcoming, saf
 ## 👥 Questions or Need Help?
 
 If you ever get stuck or need guidance on how to structure a contribution:
-* Drop a post in [🤘 Chit-Chat](https://github.com/ananya-09/DSA-Discussions/discussions/categories/chit-chat) or [❓ Doubt Box](https://github.com/ananya-09/DSA-Discussions/discussions/categories/doubt-box-q-a).
-* Tag the maintainers or repository creator [@ananya-09](https://github.com/ananya-09).
+* Drop a post in [🤘 Chit-Chat](https://github.com/ananya-in-tech/tech-archive/discussions/categories/chit-chat) or [❓ Doubt Box](https://github.com/ananya-in-tech/tech-archive/discussions/categories/doubt-box-q-a).
+* Tag the maintainers or repository creator [@ananya-in-tech](https://github.com/ananya-in-tech).
 
 ---
 

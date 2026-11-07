@@ -41,7 +41,7 @@ body:
     attributes:
       label: 🔗 GitHub Action Run Link (If applicable)
       description: If this is an automation workflow bug, link the failed action run here.
-      placeholder: e.g. https://github.com/ananya-09/DSA-Discussions/actions/runs/12345678
+      placeholder: e.g. https://github.com/ananya-in-tech/tech-archive/actions/runs/12345678
   - type: checkboxes
     id: diagnostic-checklist
     attributes:

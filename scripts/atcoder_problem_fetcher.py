@@ -29,7 +29,7 @@ from bs4 import BeautifulSoup, NavigableString
 BASE = "https://atcoder.jp"
 MODELS_URL = "https://kenkoooo.com/atcoder/resources/problem-models.json"
 HEADERS = {
-    "User-Agent": "tech-archive-discussion-bot (+https://github.com/ananya-in-tech/tech-archives)",
+    "User-Agent": "tech-archive-discussion-bot (+https://github.com/ananya-in-tech/tech-archive)",
     "Accept-Language": "en",
 }
 TIMEOUT = 20

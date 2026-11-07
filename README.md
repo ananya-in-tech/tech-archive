@@ -9,21 +9,21 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&pause=1000&color=4B6973&background=00000000&center=true&width=600&height=70&lines=Hello+There!+%F0%9F%91%8B;Welcome+to+%F0%9F%AA%90+Tech+Archives!;Let's+Dive+in+to+Tech" alt="Tech Archives Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&pause=1000&color=4B6973&background=00000000&center=true&width=600&height=70&lines=Hello+There!+%F0%9F%91%8B;Welcome+to+%F0%9F%AA%90+Tech+Archive!;Let's+Dive+in+to+Tech" alt="Tech Archive Typing SVG" />
   </a>
 </div>
 
 <div align="center">
-  <a href="https://github.com/ananya-in-tech/tech-archives">
-    <img src="https://img.shields.io/github/repo-size/ananya-in-tech/tech-archives?style=for-the-badge&color=4B6973&labelColor=0D0D0D" alt="Repo Size">
+  <a href="https://github.com/ananya-in-tech/tech-archive">
+    <img src="https://img.shields.io/github/repo-size/ananya-in-tech/tech-archive?style=for-the-badge&color=4B6973&labelColor=0D0D0D" alt="Repo Size">
   </a>
-  <a href="https://github.com/ananya-in-tech/tech-archives/discussions">
-    <img src="https://img.shields.io/github/discussions/ananya-in-tech/tech-archives?style=for-the-badge&color=4B6973&labelColor=0D0D0D" alt="Discussions">
+  <a href="https://github.com/ananya-in-tech/tech-archive/discussions">
+    <img src="https://img.shields.io/github/discussions/ananya-in-tech/tech-archive?style=for-the-badge&color=4B6973&labelColor=0D0D0D" alt="Discussions">
   </a>
   <a href="https://discord.gg/k34jbtruWB">
     <img src="https://img.shields.io/discord/1538220808084914336?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=4B6973&labelColor=0D0D0D" alt="Discord Server Widget">
   </a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=ananya-09.DSA-Discussions&left_color=%230D0D0D&right_color=%234B6973" alt="Visitors">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=ananya-in-tech.tech-archive&left_color=%230D0D0D&right_color=%234B6973" alt="Visitors">
 </div>
 
 <div align="center">
@@ -112,43 +112,43 @@ This repository avoids chaotic file dumps by organizing all code and resources i
 
 To prevent brilliant logic breakdowns, study notes, and debug logs from getting buried under endless message threads, our entire conversational layer lives right here in the **Discussions** tab.
 
-> ### [🤘 Chit-Chat](https://github.com/ananya-in-tech/tech-archives/discussions/categories/chit-chat)
+> ### [🤘 Chit-Chat](https://github.com/ananya-in-tech/tech-archive/discussions/categories/chit-chat)
 > 
 > 
 > *Catch up with the squad! Share tech news, programming memes, desktop workspace setups, or just introduce yourself to the community.*
 
-> ### [❓ Doubt Box (Q&A Format)](https://github.com/ananya-in-tech/tech-archives/discussions/categories/doubt-box-q-a)
+> ### [❓ Doubt Box (Q&A Format)](https://github.com/ananya-in-tech/tech-archive/discussions/categories/doubt-box-q-a)
 > 
 > 
 > *Stuck on an edge case, getting a TLE, or battling a segmentation fault? Paste your formatted code here and let’s debug it together. Once solved, the winning fix is pinned to the top for future readers.*
 
-> ### [🗳️ Community Polls](https://github.com/ananya-in-tech/tech-archives/discussions/categories/community-polls)
+> ### [🗳️ Community Polls](https://github.com/ananya-in-tech/tech-archive/discussions/categories/community-polls)
 > 
 > 
 > *Cast your vote! Help shape our coding schedules, choose next week’s DSA topics, or pick timings for group virtual contests.*
 
-> ### [💻 LeetCode Arena](https://github.com/ananya-in-tech/tech-archives/discussions/categories/leetcode-arena)
+> ### [💻 LeetCode Arena](https://github.com/ananya-in-tech/tech-archive/discussions/categories/leetcode-arena)
 > 
 > 
 > *Focused on interview preparation. Discuss the LeetCode Daily Challenge, ask queries about standard sheet patterns, or deep-dive into company-specific problem sets.*
 
-> ### [⚔️ Codeforces Arena](https://github.com/ananya-in-tech/tech-archives/discussions/categories/codeforces-arena)
+> ### [⚔️ Codeforces Arena](https://github.com/ananya-in-tech/tech-archive/discussions/categories/codeforces-arena)
 > 
 > 
 > *The Competitive Programming hub. Break down post-contest editorials, discuss Div 2/Div 3 speed strategies, and tackle math-heavy or advanced algorithms.*
 
-> ### [🏯 AtCoder Arena](https://github.com/ananya-in-tech/tech-archives/discussions/categories/atcoder-arena)
+> ### [🏯 AtCoder Arena](https://github.com/ananya-in-tech/tech-archive/discussions/categories/atcoder-arena)
 >
 >
 > *Break down ABC, ARC and AGC problems. Compare approaches after the weekend contests, work through the classic math and DP tasks, and climb the colour ranks together.*
 
-> ### [🏆 Showcase your Achievements](https://github.com/ananya-in-tech/tech-archives/discussions/categories/showcase-your-achievements)
+> ### [🏆 Showcase your Achievements](https://github.com/ananya-in-tech/tech-archive/discussions/categories/showcase-your-achievements)
 > 
 > 
 > *The community hype zone! Celebrate your consistency streaks, LeetCode badge unlocks, Codeforces rank-ups, open-source merges, or job/internship offers.*
 
 
-> ### [💡 Tips & Tricks](https://github.com/ananya-in-tech/tech-archives/discussions/categories/tips-tricks)
+> ### [💡 Tips & Tricks](https://github.com/ananya-in-tech/tech-archive/discussions/categories/tips-tricks)
 >
 > 
 > *Share your coding superpowers! Drop fast I/O shortcuts, C++ STL hacks, Python tricks, useful IDE extensions, or math shortcuts that save valuable seconds during contests and interviews.*
