@@ -1,42 +1,58 @@
 <!-- markdownlint-disable MD033 MD041 -->
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=ananya-09.DSA-Discussions">
-<br>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="branding/banner-animated-ink.svg">
+    <source media="(prefers-color-scheme: light)" srcset="branding/banner-animated-paper.svg">
+    <img src="branding/banner-animated-paper.svg" alt="Tech Archive logo: a terminal path, ~/tech ARCHIVE, with a bookmark in place of the letter I. Founded by Ananya, established 2026." width="100%">
+  </picture>
+</div>
+
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&weight=600&height=100&size=28&pause=1000&color=FFCA3DFF&background=00000000&center=true&width=600&height=100&lines=Hello+There!+%F0%9F%91%8B;Welcome+to+%F0%9F%AA%90+Tech+Archives!;Let's+Dive+in+to+Tech" alt="Tech Archives Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&pause=1000&color=4B6973&background=00000000&center=true&width=600&height=70&lines=Hello+There!+%F0%9F%91%8B;Welcome+to+%F0%9F%AA%90+Tech+Archives!;Let's+Dive+in+to+Tech" alt="Tech Archives Typing SVG" />
   </a>
 </div>
 
 <div align="center">
   <a href="https://github.com/ananya-in-tech/tech-archives">
-    <img src="https://img.shields.io/github/repo-size/ananya-09/DSA-Discussions?color=FFE75E&style=for-the-badge" alt="Repo Size">
+    <img src="https://img.shields.io/github/repo-size/ananya-in-tech/tech-archives?style=for-the-badge&color=4B6973&labelColor=0D0D0D" alt="Repo Size">
   </a>
   <a href="https://github.com/ananya-in-tech/tech-archives/discussions">
-    <img src="https://img.shields.io/github/discussions/ananya-in-tech/tech-archives?color=00B8A9&style=for-the-badge" alt="Discussions">
+    <img src="https://img.shields.io/github/discussions/ananya-in-tech/tech-archives?style=for-the-badge&color=4B6973&labelColor=0D0D0D" alt="Discussions">
   </a>
   <a href="https://discord.gg/k34jbtruWB">
-    <img src="https://img.shields.io/discord/1538220808084914336?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2" alt="Discord Server Widget">
+    <img src="https://img.shields.io/discord/1538220808084914336?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=4B6973&labelColor=0D0D0D" alt="Discord Server Widget">
   </a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=ananya-09.DSA-Discussions&left_color=%230D0D0D&right_color=%234B6973" alt="Visitors">
 </div>
 
 <div align="center">
   <p>
     <a href="#-the-vault-repository-structure">Explore Repository Folders</a> • 
-    <a href="#-the-forum-github-discussions-guide">Join the Discussions</a> • 
-    <a href="#-how-we-collaborate">Contribution Guidelines</a>
+    <a href="#the-forum-github-discussions-guide">Join the Discussions</a> • 
+    <a href="#how-to-collaborate">Contribution Guidelines</a>
   </p>
 </div>
 
 <!-- markdownlint-enable MD033 -->
 
+<p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
+
 ## Community
 
 Got questions, ideas, or want to showcase what you're building? Join our Discord community!
 
-[![Tech Archive Discussions Discord](https://discord.com/api/guilds/1538220808084914336/widget.png?style=banner3)](https://discord.gg/k34jbtruWB)
+<a href="https://discord.gg/k34jbtruWB">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="branding/animated/bubble/bubble-on-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="branding/animated/bubble/bubble-on-light.svg">
+    <img src="branding/animated/bubble/bubble-on-light.svg" alt="Join Tech Archive Discussions on Discord" width="320">
+  </picture>
+</a>
 
 **[Join the server](https://discord.gg/k34jbtruWB)**
 
+<p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
 ## A Note from the Developer
 
@@ -48,21 +64,21 @@ Got questions, ideas, or want to showcase what you're building? Join our Discord
 > 
 > — [**Ananya**](https://github.com/ananya-in-tech)
 
-
+<p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
 ## The Quick Dashboard
 
 | Repository Core (The Vault) | Community Vision | Ecosystem Spaces (The Forum) |
 | :--- | :--- | :--- |
 | **Topic-wise Coding Notes** & insights | **Collaborate** on codes & deep logic | The Doubt Box & Tips & Tricks |
-| **Curated Resources** & problem links | **Learn** core engineering patterns | LeetCode & Codeforces Arenas |
+| **Curated Resources** & problem links | **Learn** core engineering patterns | LeetCode, Codeforces & AtCoder Arenas |
 | **Multi-Language** crowd-sourced code | **Grow Together** through consistency | General Chat & Achievements |
 
----
+<p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
 ## 📁 The Vault: Repository Structure
 
->Comming soon...(under build)
+> Coming soon... (under build)
 >
 
 This repository avoids chaotic file dumps by organizing all code and resources into clean, **topic-wise folders**. This makes tracking progress and finding study materials completely frictionless.
@@ -90,7 +106,7 @@ This repository avoids chaotic file dumps by organizing all code and resources i
 * **The `README.md`:** Holds the conceptual breakdown of the pattern, curated problem lists (Striver/NeetCode), and hidden edge cases to look out for.
 * **The Solutions:** Well-documented source files showcasing multiple optimal approaches to the exact same problem.
 
----
+<p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
 ## The Forum: GitHub Discussions Guide
 
@@ -121,6 +137,11 @@ To prevent brilliant logic breakdowns, study notes, and debug logs from getting 
 > 
 > *The Competitive Programming hub. Break down post-contest editorials, discuss Div 2/Div 3 speed strategies, and tackle math-heavy or advanced algorithms.*
 
+> ### [🏯 AtCoder Arena](https://github.com/ananya-in-tech/tech-archives/discussions/categories/atcoder-arena)
+>
+>
+> *Break down ABC, ARC and AGC problems. Compare approaches after the weekend contests, work through the classic math and DP tasks, and climb the colour ranks together.*
+
 > ### [🏆 Showcase your Achievements](https://github.com/ananya-in-tech/tech-archives/discussions/categories/showcase-your-achievements)
 > 
 > 
@@ -132,9 +153,9 @@ To prevent brilliant logic breakdowns, study notes, and debug logs from getting 
 > 
 > *Share your coding superpowers! Drop fast I/O shortcuts, C++ STL hacks, Python tricks, useful IDE extensions, or math shortcuts that save valuable seconds during contests and interviews.*
 
----
+<p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
-## 🤖 Discussions in LeetCode Arena & CodeForces Arena
+## 🤖 Discussions in LeetCode, Codeforces & AtCoder Arenas
 
 This repository features automated helpers to fetch problem statements instantly! When starting a new discussion thread for a puzzle, follow these simple formatting steps to auto-generate a comprehensive briefing card:
 
@@ -172,7 +193,26 @@ A-Z
 
 ```
 
----
+### 3. AtCoder Arena Discussions
+To start a study thread for an AtCoder problem:
+* **Category:** Create a new discussion in the **AtCoder Arena** category.
+* **Title:** Give the thread your own descriptive title.
+* **Body:** In the body of the post, you can use either of these two simple formats:
+  * **Option A:** Paste the direct AtCoder problem link, such as `https://atcoder.jp/contests/abc300/tasks/abc300_a`.
+  * **Option B:** Type the contest ID and problem index, using the same headings as the Codeforces Arena:
+
+```markdown
+# Contest ID
+abc300
+
+# Problem Index
+A
+
+```
+
+The bot replies with the problem's name, contest, time and memory limits, score, and the full statement with samples, straight from AtCoder. AtCoder doesn't publish difficulty ratings, so the card shows the estimate from [AtCoder Problems](https://kenkoooo.com/atcoder/). Older problems that AtCoder only has in Japanese show the Japanese statement.
+
+<p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
 ## Best Practices for Community Collaboration
 
@@ -183,7 +223,7 @@ To get the most out of every automated discussion thread, keep these simple habi
 * **Explain the "Why":** Break down your thought process. Did you use a sliding window because of a subarray constraint? Did you shift to a map optimization because lookups were hitting a time bottleneck? Teach your peers your algorithmic intuition!
 * **Use Clean Syntax Highlighting & Forms:** When replying with code samples, always enforce proper language backticks so your snippets feature clean syntax highlighting. Additionally, utilize the automated templates inside the `.github/ISSUE_TEMPLATE/` directory when presenting formal blueprints or tracking bug fixes directly to the system project board.
 
----
+<p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
 ## How to Collaborate
 
@@ -198,7 +238,14 @@ We must follow a clean, collaborative engineering workflow to make sure every li
 2. **Code Reviews:** When pushing a new approach, open a Pull Request. We use line-by-line comments to challenge time/space complexities and review variable naming readability.
 3. **Use the Discussions:** If your code is failing hidden test cases, don't suffer in silence! Tag it with `status:bug-hunting` and drop it in **The Doubt Box** so someone can unblock you.
 
----
+<p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
-*Built with passion for the open-source community. Let's stay consistent and build beautiful commit graphs together!*
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="branding/icon-paper-512.png">
+    <source media="(prefers-color-scheme: light)" srcset="branding/icon-ink-512.png">
+    <img src="branding/icon-ink-512.png" alt="Tech Archive icon" width="96">
+  </picture>
+  <p><em>Built with passion for the open-source community. Let's stay consistent and build beautiful commit graphs together!</em></p>
+</div>
 
