@@ -1,16 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="branding/banner-animated-ink.svg">
-    <source media="(prefers-color-scheme: light)" srcset="branding/banner-animated-paper.svg">
-    <img src="branding/banner-animated-paper.svg" alt="Tech Archive logo: a terminal path, ~/tech ARCHIVE, with a bookmark in place of the letter I. Founded by Ananya, established 2026." width="100%">
-  </picture>
-</div>
-
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=28&pause=1000&color=4B6973&background=00000000&center=true&width=600&height=70&lines=Hello+There!+%F0%9F%91%8B;Welcome+to+%F0%9F%AA%90+Tech+Archive!;Let's+Dive+in+to+Tech" alt="Tech Archive Typing SVG" />
-  </a>
+<div align="right">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=ananya-in-tech.tech-archive&left_color=%230D0D0D&right_color=%234B6973" alt="Visitors">
 </div>
 
 <div align="center">
@@ -23,8 +13,19 @@
   <a href="https://discord.gg/k34jbtruWB">
     <img src="https://img.shields.io/discord/1538220808084914336?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=4B6973&labelColor=0D0D0D" alt="Discord Server Widget">
   </a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=ananya-in-tech.tech-archive&left_color=%230D0D0D&right_color=%234B6973" alt="Visitors">
 </div>
+
+<br>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="branding/banner-animated-ink.svg">
+    <source media="(prefers-color-scheme: light)" srcset="branding/banner-animated-paper.svg">
+    <img src="branding/banner-animated-paper.svg" alt="Tech Archive logo: a terminal path, ~/tech ARCHIVE, with a bookmark in place of the letter I. Founded by Ananya, established 2026." width="100%">
+  </picture>
+</div>
+
+<br>
 
 <div align="center">
   <p>
@@ -33,6 +34,8 @@
     <a href="#how-to-collaborate">Contribution Guidelines</a>
   </p>
 </div>
+
+<br>
 
 <!-- markdownlint-enable MD033 -->
 
@@ -62,7 +65,8 @@ Got questions, ideas, or want to showcase what you're building? Join our Discord
 > 
 > Happy coding! 🚀
 > 
-> — [**Ananya**](https://github.com/ananya-in-tech)
+<!-- > — [**Ananya**](https://github.com/ananya-in-tech)
+-->
 
 <p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
