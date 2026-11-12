@@ -7,6 +7,9 @@
   <a href="https://github.com/ananya-in-tech/tech-archive">
     <img src="https://img.shields.io/github/repo-size/ananya-in-tech/tech-archive?style=for-the-badge&color=4B6973&labelColor=0D0D0D" alt="Repo Size">
   </a>
+  <a href="https://github.com/ananya-in-tech/tech-archive/blob/main/CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/Docs-Contributor%20Guidelines-4B6973?style=for-the-badge&labelColor=0D0D0D" alt="Contributor Guidelines">
+  </a>
   <a href="https://github.com/ananya-in-tech/tech-archive/discussions">
     <img src="https://img.shields.io/github/discussions/ananya-in-tech/tech-archive?style=for-the-badge&color=4B6973&labelColor=0D0D0D" alt="Discussions">
   </a>
@@ -23,16 +26,6 @@
     <source media="(prefers-color-scheme: light)" srcset="branding/banner-animated-paper.svg">
     <img src="branding/banner-animated-paper.svg" alt="Tech Archive logo: a terminal path, ~/tech ARCHIVE, with a bookmark in place of the letter I. Founded by Ananya, established 2026." width="100%">
   </picture>
-</div>
-
-<br>
-
-<div align="center">
-  <p>
-    <a href="#-the-vault-repository-structure">Explore Repository Folders</a> • 
-    <a href="#the-forum-github-discussions-guide">Join the Discussions</a> • 
-    <a href="#how-to-collaborate">Contribution Guidelines</a>
-  </p>
 </div>
 
 <br>
