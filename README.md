@@ -3,6 +3,8 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=ananya-in-tech.tech-archive&left_color=%230D0D0D&right_color=%234B6973" alt="Visitors">
 </div>
 
+<br>
+
 <div align="center">
   <a href="https://github.com/ananya-in-tech/tech-archive">
     <img src="https://img.shields.io/github/repo-size/ananya-in-tech/tech-archive?style=for-the-badge&color=4B6973&labelColor=0D0D0D" alt="Repo Size">
