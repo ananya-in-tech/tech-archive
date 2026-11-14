@@ -84,42 +84,42 @@ The topics are arranged in a recommended learning sequence. Following this order
 
 | Module | Topic |
 | :--- | :--- |
-| 01 | [Introduction](./DSA/01_Introduction/README.md) |
-| 02 | [Time and Space Complexity](./DSA/02_Time_and_Space_complexity/README.md) |
-| 03 | [Mathematics for DSA](./DSA/03_Mathematics_for_DSA/README.md) |
-| 04 | [Arrays](./DSA/04_Arrays/README.md) |
-| 05 | [Strings](./DSA/05_Strings/README.md) |
-| 06 | [Searching](./DSA/06_Searching/README.md) |
-| 07 | [Sorting](./DSA/07_Sorting/README.md) |
-| 08 | [Bit Manipulation](./DSA/08_Bit_Manipulation/README.md) |
-| 09 | [Hashing](./DSA/09_Hashing/README.md) |
-| 10 | [Prefix Sum](./DSA/10_Prefix_Sum/README.md) |
-| 11 | [Two Pointers](./DSA/11_Two_Pointers/README.md) |
-| 12 | [Sliding Window](./DSA/12_Sliding_Window/README.md) |
-| 13 | [Linked Lists](./DSA/13_Linked_Lists/README.md) |
-| 14 | [Stacks](./DSA/14_Stacks/README.md) |
-| 15 | [Queues](./DSA/15_Queues/README.md) |
-| 16 | [Recursion](./DSA/16_Recursion/README.md) |
-| 17 | [Backtracking](./DSA/17_Backtracking/README.md) |
-| 18 | [Binary Search](./DSA/18_Binary_Search/README.md) |
-| 19 | [Divide and Conquer](./DSA/19_Divide_and_Conquer/README.md) |
-| 20 | [Trees](./DSA/20_Trees/README.md) |
-| 21 | [Binary Search Trees](./DSA/21_Binary_Search_Trees/README.md) |
-| 22 | [Heaps and Priority Queues](./DSA/22_Heaps_and_Priority_Queues/README.md) |
-| 23 | [Tries](./DSA/23_Tries/README.md) |
-| 24 | [Segment Trees](./DSA/24_Segment_Trees/README.md) |
-| 25 | [Fenwick Trees](./DSA/25_Fenwick_Trees/README.md) |
-| 26 | [Disjoint Set Union](./DSA/26_Disjoint_Set_Union/README.md) |
-| 27 | [Graphs](./DSA/27_Graphs/README.md) |
-| 28 | [Greedy Algorithms](./DSA/28_Greedy_Algorithms/README.md) |
-| 29 | [Dynamic Programming](./DSA/29_Dynamic_Programming/README.md) |
-| 30 | [String Algorithms](./DSA/30_String_Algorithms/README.md) |
-| 31 | [Number Theory](./DSA/31_Number_Theory/README.md) |
-| 32 | [Computational Geometry](./DSA/32_Computational_Geometry/README.md) |
-| 33 | [Advanced Data Structures](./DSA/33_Advanced_Data_Structures/README.md) |
-| 34 | [Advanced Algorithms](./DSA/34_Advanced_Algorithms/README.md) |
-| 35 | [Interview Patterns](./DSA/35_Interview_Patterns/README.md) |
-| 36 | [Practice Sheets](./DSA/36_Practice_Sheets/README.md) |
+| 01 | [Introduction](./01_Introduction/README.md) |
+| 02 | [Time and Space Complexity](./02_Time_and_Space_complexity/README.md) |
+| 03 | [Mathematics for DSA](./03_Mathematics_for_DSA/README.md) |
+| 04 | [Arrays](./04_Arrays/README.md) |
+| 05 | [Strings](./05_Strings/README.md) |
+| 06 | [Searching](./06_Searching/README.md) |
+| 07 | [Sorting](./07_Sorting/README.md) |
+| 08 | [Bit Manipulation](./08_Bit_Manipulation/README.md) |
+| 09 | [Hashing](./09_Hashing/README.md) |
+| 10 | [Prefix Sum](./10_Prefix_Sum/README.md) |
+| 11 | [Two Pointers](./11_Two_Pointers/README.md) |
+| 12 | [Sliding Window](./12_Sliding_Window/README.md) |
+| 13 | [Linked Lists](./13_Linked_Lists/README.md) |
+| 14 | [Stacks](./14_Stacks/README.md) |
+| 15 | [Queues](./15_Queues/README.md) |
+| 16 | [Recursion](./16_Recursion/README.md) |
+| 17 | [Backtracking](./17_Backtracking/README.md) |
+| 18 | [Binary Search](./18_Binary_Search/README.md) |
+| 19 | [Divide and Conquer](./19_Divide_and_Conquer/README.md) |
+| 20 | [Trees](./20_Trees/README.md) |
+| 21 | [Binary Search Trees](./21_Binary_Search_Trees/README.md) |
+| 22 | [Heaps and Priority Queues](./22_Heaps_and_Priority_Queues/README.md) |
+| 23 | [Tries](./23_Tries/README.md) |
+| 24 | [Segment Trees](./24_Segment_Trees/README.md) |
+| 25 | [Fenwick Trees](./25_Fenwick_Trees/README.md) |
+| 26 | [Disjoint Set Union](./26_Disjoint_Set_Union/README.md) |
+| 27 | [Graphs](./27_Graphs/README.md) |
+| 28 | [Greedy Algorithms](./28_Greedy_Algorithms/README.md) |
+| 29 | [Dynamic Programming](./29_Dynamic_Programming/README.md) |
+| 30 | [String Algorithms](./30_String_Algorithms/README.md) |
+| 31 | [Number Theory](./31_Number_Theory/README.md) |
+| 32 | [Computational Geometry](./32_Computational_Geometry/README.md) |
+| 33 | [Advanced Data Structures](./33_Advanced_Data_Structures/README.md) |
+| 34 | [Advanced Algorithms](./34_Advanced_Algorithms/README.md) |
+| 35 | [Interview Patterns](./35_Interview_Patterns/README.md) |
+| 36 | [Practice Sheets](./36_Practice_Sheets/README.md) |
 
 Each module is designed to prepare learners for the next stage of the roadmap.
 
@@ -237,7 +237,7 @@ Contributions are welcome in many forms, including:
 * Reporting issues
 * Suggesting new learning resources
 
-Please read the project's [`CONTRIBUTING.md`](/CONTRIBUTING.md) before submitting a pull request.
+Please read the project's [`CONTRIBUTING.md`](../CONTRIBUTING.md) before submitting a pull request.
 
 ---
 
