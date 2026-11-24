@@ -1,212 +1,143 @@
-<!-- markdownlint-disable MD041 -->
-<div align="center">
-  <h1>🤝 Contributing to Tech Archive</h1>
-  <p><b>An elegant, community-driven ecosystem designed for mastering Data Structures and Algorithms.</b></p>
+# Contributing to Tech Archive
 
-  <a href="https://github.com/ananya-in-tech/tech-archive">
-    <img src="https://img.shields.io/github/repo-size/ananya-in-tech/tech-archive?color=4B6973&labelColor=0D0D0D&style=flat-square" alt="Repo Size">
-  </a>
-  <a href="https://github.com/ananya-in-tech/tech-archive/discussions">
-    <img src="https://img.shields.io/github/discussions/ananya-in-tech/tech-archive?color=4B6973&labelColor=0D0D0D&style=flat-square" alt="Discussions">
-  </a>
-  <a href="https://github.com/ananya-in-tech/tech-archive/pulls">
-    <img src="https://img.shields.io/github/issues-pr/ananya-in-tech/tech-archive?color=4B6973&labelColor=0D0D0D&style=flat-square" alt="PRs Welcome">
-  </a>
-</div>
+Thank you for helping make Tech Archive a useful, reliable, and welcoming technical knowledge library.
 
-<!-- markdownlint-enable MD033 -->
----
+Tech Archive welcomes contributions from students, developers, educators, and practitioners. You can contribute original notes, curated links, course recommendations, practice material, diagrams, project references, and improvements to repository tooling.
 
-## 🌟 Welcome to the Community!
+## What makes a good contribution?
 
-First off, thank you for considering contributing to **Tech Archive**! 🎉
+- **Useful:** It helps a learner understand a concept or take a meaningful next step.
+- **Credible:** It links to an authoritative source or identifies the author's experience and context.
+- **Clear:** It includes a concise description, prerequisites, and an appropriate difficulty level where relevant.
+- **Maintained:** Time-sensitive resources include a version, publication date, or last-checked date where appropriate.
+- **Accessible:** Notes use semantic Markdown headings; diagrams include alt text and a text explanation.
+- **Responsible:** Do not upload copyrighted books, paid course material, private data, credentials, or malicious content.
 
-Whether you are fixing a typo, adding an optimized solution, breaking down an advanced Dynamic Programming pattern, improving workflow automation, or helping a peer debug an edge case in the Doubt Box—**your contribution matters**.
+## Where should content go?
 
-This repository is built around a dual-pillar ecosystem:
-1. **The Vault (Repository Core):** Topic-wise structured notes, conceptual breakdowns, curated problem lists, and multi-language solutions.
-2. **The Forum (GitHub Discussions):** Real-time problem breakdowns, automated LeetCode, Codeforces & AtCoder briefings, contest strategy chats, and Q&A debugging.
+Place material in the closest subject directory:
 
-Before contributing, please take a moment to read this guide to ensure your work aligns with our codebase design principles, directory structure, and community vision.
+| Contribution | Location |
+| --- | --- |
+| Mathematics and learning fundamentals | `01-foundations/` |
+| Programming languages and paradigms | `02-programming/` |
+| DSA and core CS subjects | `03-computer-science/` |
+| Web, mobile, desktop, and API development | `04-software-development/` |
+| AI, ML, data science, cybersecurity, blockchain, and cloud | `05-emerging-technologies/` |
+| System design, architecture, testing, and DevOps | `06-engineering-practices/` |
+| Coding and technical interview preparation | `07-interview-preparation/` |
+| Resumes, internships, job search, and open source | `08-career-resources/` |
+| Project ideas, case studies, and practical exercises | `09-projects-and-practice/` |
+| Learning sequences and roadmaps | `10-learning-roadmaps/` |
 
----
+Keep a resource with its subject. If it is relevant in multiple places, link to the canonical copy rather than duplicating it.
 
-## 🧭 Principles & Vision
+## Recommended subject structure
 
-Every contribution to **Tech Archive** should reflect our core values:
-
-* **Structured Learning:** Avoid unstructured file dumps at the root directory. Everything has its designated home.
-* **Intuition First:** Explain *why* a solution works before jumping into code.
-* **Code Clarity & Quality:** Code should be clean, modular, and thoroughly commented so fellow learners can follow the algorithmic logic easily.
-* **Complexity Awareness:** Always detail explicit Time Complexity and Auxiliary Space Complexity (e.g., Time: `O(N)`, Space: `O(1)`).
-* **Inclusive & Supportive Collaboration:** Encourage peers, participate in code reviews constructively, and share knowledge generously.
-
----
-
-## 🚀 Ways You Can Contribute
-
-There are many ways to contribute to this ecosystem:
-
-| Contribution Area | Description | Where it Happens |
-| :--- | :--- | :--- |
-| **📁 Code Solutions** | Add optimal or multi-approach solutions (C++, Java, Python, Go, JS/TS, Rust). | **The Vault** (`DSA/` subdirectories) |
-| **📚 Topic Notes & Diagrams** | Enhance conceptual explanations, add visual diagrams, or update `Practice.md` sheets. | **The Vault** (`DSA/` subdirectories) |
-| **🤖 Automated Discussions** | Start problem study threads in the LeetCode, Codeforces or AtCoder Arena using automated bots. | **The Forum** (Discussions tab) |
-| **❓ Peer Debugging** | Help resolve failing test cases or edge cases in **The Doubt Box**. | **The Forum** (Discussions tab) |
-| **🛠️ Automation & Tooling** | Improve GitHub Actions workflows (`.github/workflows/`) or issue blueprints. | Repository Root |
-| **🐛 Bug Reports & Ideas** | Report broken links, incorrect complexity notes, or feature proposals. | GitHub Issues |
-
----
-
-## 🛠️ Step-by-Step Contribution Workflow
-
-Follow these steps to submit your contributions smoothly:
+Use only the subdirectories that make sense for the subject. Prefix ordered subject and topic directories with a two-digit sequence (`01-`, `02-`, and so on), followed by lowercase kebab-case. Use the number to communicate a recommended reading order, not as a substitute for a clear README roadmap. A typical resource structure:
 
 ```text
-[Fork Repo] ➔ [Create Branch] ➔ [Write Solution & Notes] ➔ [Test & Format] ➔ [Submit PR] ➔ [Peer Review] ➔ [Merged! 🎉]
+subject-name/
+├── README.md
+├── notes/
+├── courses/
+├── books/
+├── research-papers/
+├── practice/
+├── interview-questions/
+├── references/
+└── assets/
+    ├── diagrams/
+    ├── images/
+    └── datasets/
 ```
 
-### 1️⃣ Fork & Clone the Repository
-Start by forking the repository to your own GitHub account, then clone it locally:
+Do not create empty folders just to match this example. A subject README should act as its index and explain what is available.
 
-```bash
-git clone https://github.com/YOUR-USERNAME/tech-archive.git
-cd tech-archive
+## Adding a curated external resource
+
+Add entries to the relevant subject README using a consistent description:
+
+```markdown
+### Resource title
+
+- **Type:** Course / Documentation / Book / Article / Tool / Paper
+- **Level:** Beginner / Intermediate / Advanced / All levels
+- **Cost:** Free / Freemium / Paid / Not specified
+- **Link:** [Open resource](https://example.com)
+- **Why it is useful:** One or two sentences describing its value.
+- **Prerequisites:** Concepts a learner should know first, if any.
+- **Last checked:** YYYY-MM (for resources likely to change)
 ```
 
-### 2️⃣ Create a Descriptive Feature Branch
-Always create a dedicated branch for your work. Never work directly on `main`:
+Do not claim that a resource is free unless you have checked its current access terms. Clearly disclose registration, subscription, or payment requirements where known.
 
-```bash
-# For adding solutions or notes
-git checkout -b feat/arrays-two-sum-cpp
+## Writing Markdown notes
 
-# For documentation improvements
-git checkout -b docs/linked-list-guide
+Prefer Markdown over screenshots or scanned documents. A useful note often includes:
 
-# For automation or workflow fixes
-git checkout -b fix/lc-fetcher-script
+```markdown
+# Topic title
+
+## Overview
+What the topic is and why it matters.
+
+## Prerequisites
+What the learner should know first.
+
+## Core concepts
+Explain the important ideas with examples.
+
+## Practical examples
+Show how the concepts are applied.
+
+## Common mistakes
+Highlight pitfalls and edge cases.
+
+## Further reading
+Link to authoritative sources.
+
+## References
+Credit sources used.
 ```
 
-### 3️⃣ Follow the Repository Directory Structure
-Organize your solutions and notes within the appropriate module folder under `DSA/`:
+Keep each note focused. Use diagrams where they improve understanding and include descriptive alt text.
 
-```text
-DSA/
-├── 01_Introduction/
-├── 02_Time_and_Space_complexity/
-├── 03_Mathematics_for_DSA/
-├── 04_Arrays_Strings/
-│   ├── README.md             # Topic conceptual breakdown & intuition
-│   ├── Practice.md           # Curated problem lists (LeetCode, Codeforces, GFG)
-│   ├── Resources.md          # External reading materials & video links
-│   └── Two_Sum/              # Specific Problem Folder
-│       ├── README.md         # Problem explanation & approach breakdown
-│       ├── solution.cpp      # C++ implementation
-│       ├── solution.py       # Python implementation
-│       └── solution.java     # Java implementation
-└── ...
-```
+## Adding PDFs and other files
 
-> [!IMPORTANT]
-> **No Root Dumps:** Do not create loose source files in the repository root directory. Always place code inside the relevant topic directory under `DSA/`.
+- Upload only files you created or are permitted to redistribute.
+- Link to commercial books, paid courses, and copyrighted materials instead of committing copies.
+- Use descriptive names such as `process-scheduling-notes.pdf`.
+- Keep supporting images, diagrams, and datasets in the relevant subject's `assets/` directory.
+- Avoid committing generated files, executables, archives, or very large datasets unless they are essential and approved.
+- For binary files that are useful as standalone learning material, document their purpose and source in the subject README.
 
----
+## Pull request workflow
 
-## 💻 Code & Documentation Standards
+1. Fork the repository.
+2. Create a focused branch, for example `docs/os-process-management` or `feat/ai-learning-resources`.
+3. Add content in the correct subject directory.
+4. Check links, spelling, Markdown formatting, and file names.
+5. Submit a pull request describing what changed, why it is useful, and the sources used.
+6. Respond constructively to review feedback.
 
-To maintain high technical depth and interview readiness, please follow these guidelines when writing code and documentation:
+Never commit directly to `main`.
 
-### Code Formatting & Documentation
-1. **Header Metadata:** Include a top comment block in every solution file with the problem link, difficulty, and complexities:
-   ```cpp
-   /**
-    * Problem: Two Sum
-    * Platform: LeetCode #1
-    * Link: https://leetcode.com/problems/two-sum/
-    * 
-    * Time Complexity:  O(N) - Single pass using Hash Map
-    * Space Complexity: O(N) - Auxiliary space for storing complement elements
-    */
-   ```
-2. **Readable Variable Names:** Use self-explanatory variable names (`targetSum`, `seenMap`, `leftPtr`) rather than single-letter variables except for standard loop indices (`i`, `j`).
-3. **Inline Comments:** Add inline comments explaining non-obvious logic, mathematical transformations, or edge case handling.
-4. **Multiple Approaches:** When possible, demonstrate progression from Brute Force ➔ Better ➔ Optimal solution.
+## Review checklist
 
-### Topic Documentation (`README.md`) Standards
-When writing or improving conceptual guides in `DSA/`:
-* Include an **Intuition & Real-world Motivation** section.
-* Provide **Visual Diagrams** (using ASCII art or Mermaid diagrams).
-* Highlight **Common Pitfalls & Edge Cases** (e.g., integer overflow, empty inputs, null pointers).
-* Include **Complexity Analysis Tables**.
+Before opening a pull request, confirm:
 
----
+- [ ] The content is in the correct subject directory.
+- [ ] The title and filename are descriptive.
+- [ ] External links work and point to the intended resource.
+- [ ] Sources and authors are credited.
+- [ ] Copyright and redistribution permissions are respected.
+- [ ] No secrets, credentials, private data, or harmful payloads are included.
+- [ ] The relevant subject README is updated.
+- [ ] The change does not duplicate an existing resource.
 
-## 📝 Commit & PR Guidelines
+## Community conduct
 
-### Commit Messages
-We encourage clear, standard commit messages following Conventional Commits:
+Be respectful, inclusive, patient, and constructive. Critique ideas and content, not people. Follow the repository [Code of Conduct](.github/CODE_OF_CONDUCT.md).
 
-* `feat(arrays): add optimal O(N) hash map solution for Two Sum in C++`
-* `docs(dp): add 0/1 knapsack pattern breakdown and state transition diagram`
-* `fix(workflows): update LeetCode GraphQL query field for topic tags`
-
-### Submitting a Pull Request (PR)
-
-1. Push your branch to your forked repository:
-   ```bash
-   git push origin feat/arrays-two-sum-cpp
-   ```
-2. Open a Pull Request on GitHub against the `main` branch of `ananya-in-tech/tech-archive`.
-3. Fill out the PR template or description completely:
-   * Link relevant Issues or Discussions if applicable.
-   * State the problem solved, language used, and complexities.
-   * Confirm that your code has been tested locally against all platform test cases.
-
-> [!TIP]
-> **Issue Blueprints:** When proposing new solutions or features, you can also use our interactive GitHub Issue templates:
-> * 💻 **Submit a Solution Blueprint**
-> * 🐛 **Bug Report**
-> * 🚀 **Feature Request**
-
----
-
-## 💬 Community & Discussions Etiquette
-
-Our **GitHub Discussions** space is the heartbeat of this community! When interacting in Discussions:
-
-* **Use Automated Discussion Features:**
-  * In **LeetCode Arena**, paste the direct problem link (e.g., `https://leetcode.com/problems/two-sum/`) to trigger our automated problem briefing bot.
-  * In **Codeforces Arena**, paste the problem link or specify the contest ID and problem index format:
-    ```markdown
-    # Contest ID
-    2074
-
-    # Problem Index
-    A
-    ```
-  * In **AtCoder Arena**, paste the problem link (e.g., `https://atcoder.jp/contests/abc300/tasks/abc300_a`) or use the same headings with an AtCoder contest ID, such as `abc300`.
-* **Keep Threads Consolidated:** Search for existing threads before creating a new discussion for the same problem. Add your approach or doubts as a reply inside the existing master thread.
-* **Be Constructive in Code Reviews & Doubt Box:** When helping peers in **The Doubt Box**, highlight the bug clearly, explain the underlying cause, and offer hints before revealing full solutions.
-
----
-
-## 📜 Code of Conduct
-
-We are committed to making participation in **Tech Archive** a welcoming, safe, and respectful experience for everyone:
-
-* Be respectful and inclusive of all skill levels, from total beginners to experienced competitive programmers.
-* Accept constructive criticism gracefully during peer reviews.
-* Focus on community growth: teach, learn, and celebrate each other's progress! 🏆
-
----
-
-## 👥 Questions or Need Help?
-
-If you ever get stuck or need guidance on how to structure a contribution:
-* Drop a post in [🤘 Chit-Chat](https://github.com/ananya-in-tech/tech-archive/discussions/categories/chit-chat) or [❓ Doubt Box](https://github.com/ananya-in-tech/tech-archive/discussions/categories/doubt-box-q-a).
-* Tag the maintainers or repository creator [@ananya-in-tech](https://github.com/ananya-in-tech).
-
----
-
-*Thank you for helping us build the ultimate community-driven DSA handbook! Let's engineer our growth one commit at a time.* 🟩🚀
+Thank you for sharing knowledge and helping others grow.
