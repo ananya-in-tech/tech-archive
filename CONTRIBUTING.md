@@ -19,22 +19,22 @@ Place material in the closest subject directory:
 
 | Contribution | Location |
 | --- | --- |
-| Mathematics and learning fundamentals | `foundations/` |
-| Programming languages and paradigms | `programming/` |
-| DSA and core CS subjects | `computer-science/` |
-| Web, mobile, desktop, and API development | `software-development/` |
-| AI, ML, data science, cybersecurity, blockchain, and cloud | `emerging-technologies/` |
-| System design, architecture, testing, and DevOps | `engineering-practices/` |
-| Coding and technical interview preparation | `interview-preparation/` |
-| Resumes, internships, job search, and open source | `career-resources/` |
-| Project ideas, case studies, and practical exercises | `projects-and-practice/` |
-| Learning sequences and roadmaps | `learning-roadmaps/` |
+| Mathematics and learning fundamentals | `01-foundations/` |
+| Programming languages and paradigms | `02-programming/` |
+| DSA and core CS subjects | `03-computer-science/` |
+| Web, mobile, desktop, and API development | `04-software-development/` |
+| AI, ML, data science, cybersecurity, blockchain, and cloud | `05-emerging-technologies/` |
+| System design, architecture, testing, and DevOps | `06-engineering-practices/` |
+| Coding and technical interview preparation | `07-interview-preparation/` |
+| Resumes, internships, job search, and open source | `08-career-resources/` |
+| Project ideas, case studies, and practical exercises | `09-projects-and-practice/` |
+| Learning sequences and roadmaps | `10-learning-roadmaps/` |
 
 Keep a resource with its subject. If it is relevant in multiple places, link to the canonical copy rather than duplicating it.
 
 ## Recommended subject structure
 
-Use only the subdirectories that make sense for the subject. A typical example:
+Use only the subdirectories that make sense for the subject. Prefix ordered subject and topic directories with a two-digit sequence (`01-`, `02-`, and so on), followed by lowercase kebab-case. Use the number to communicate a recommended reading order, not as a substitute for a clear README roadmap. A typical resource structure:
 
 ```text
 subject-name/
