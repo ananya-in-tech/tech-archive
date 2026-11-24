@@ -84,42 +84,42 @@ The topics are arranged in a recommended learning sequence. Following this order
 
 | Module | Topic |
 | :--- | :--- |
-| 01 | [Introduction](./01_Introduction/README.md) |
-| 02 | [Time and Space Complexity](./02_Time_and_Space_complexity/README.md) |
-| 03 | [Mathematics for DSA](./03_Mathematics_for_DSA/README.md) |
-| 04 | [Arrays](./04_Arrays/README.md) |
-| 05 | [Strings](./05_Strings/README.md) |
-| 06 | [Searching](./06_Searching/README.md) |
-| 07 | [Sorting](./07_Sorting/README.md) |
-| 08 | [Bit Manipulation](./08_Bit_Manipulation/README.md) |
-| 09 | [Hashing](./09_Hashing/README.md) |
-| 10 | [Prefix Sum](./10_Prefix_Sum/README.md) |
-| 11 | [Two Pointers](./11_Two_Pointers/README.md) |
-| 12 | [Sliding Window](./12_Sliding_Window/README.md) |
-| 13 | [Linked Lists](./13_Linked_Lists/README.md) |
-| 14 | [Stacks](./14_Stacks/README.md) |
-| 15 | [Queues](./15_Queues/README.md) |
-| 16 | [Recursion](./16_Recursion/README.md) |
-| 17 | [Backtracking](./17_Backtracking/README.md) |
-| 18 | [Binary Search](./18_Binary_Search/README.md) |
-| 19 | [Divide and Conquer](./19_Divide_and_Conquer/README.md) |
-| 20 | [Trees](./20_Trees/README.md) |
-| 21 | [Binary Search Trees](./21_Binary_Search_Trees/README.md) |
-| 22 | [Heaps and Priority Queues](./22_Heaps_and_Priority_Queues/README.md) |
-| 23 | [Tries](./23_Tries/README.md) |
-| 24 | [Segment Trees](./24_Segment_Trees/README.md) |
-| 25 | [Fenwick Trees](./25_Fenwick_Trees/README.md) |
-| 26 | [Disjoint Set Union](./26_Disjoint_Set_Union/README.md) |
-| 27 | [Graphs](./27_Graphs/README.md) |
-| 28 | [Greedy Algorithms](./28_Greedy_Algorithms/README.md) |
-| 29 | [Dynamic Programming](./29_Dynamic_Programming/README.md) |
-| 30 | [String Algorithms](./30_String_Algorithms/README.md) |
-| 31 | [Number Theory](./31_Number_Theory/README.md) |
-| 32 | [Computational Geometry](./32_Computational_Geometry/README.md) |
-| 33 | [Advanced Data Structures](./33_Advanced_Data_Structures/README.md) |
-| 34 | [Advanced Algorithms](./34_Advanced_Algorithms/README.md) |
-| 35 | [Interview Patterns](./35_Interview_Patterns/README.md) |
-| 36 | [Practice Sheets](./36_Practice_Sheets/README.md) |
+| 01 | [Introduction](./introduction/README.md) |
+| 02 | [Time and Space Complexity](./time-and-space-complexity/README.md) |
+| 03 | [Mathematics for DSA](./mathematics-for-dsa/README.md) |
+| 04 | [Arrays](./arrays/README.md) |
+| 05 | [Strings](./strings/README.md) |
+| 06 | [Searching](./searching/README.md) |
+| 07 | [Sorting](./sorting/README.md) |
+| 08 | [Bit Manipulation](./bit-manipulation/README.md) |
+| 09 | [Hashing](./hashing/README.md) |
+| 10 | [Prefix Sum](./prefix-sum/README.md) |
+| 11 | [Two Pointers](./two-pointers/README.md) |
+| 12 | [Sliding Window](./sliding-window/README.md) |
+| 13 | [Linked Lists](./linked-lists/README.md) |
+| 14 | [Stacks](./stacks/README.md) |
+| 15 | [Queues](./queues/README.md) |
+| 16 | [Recursion](./recursion/README.md) |
+| 17 | [Backtracking](./backtracking/README.md) |
+| 18 | [Binary Search](./binary-search/README.md) |
+| 19 | [Divide and Conquer](./divide-and-conquer/README.md) |
+| 20 | [Trees](./trees/README.md) |
+| 21 | [Binary Search Trees](./binary-search-trees/README.md) |
+| 22 | [Heaps and Priority Queues](./heaps-and-priority-queues/README.md) |
+| 23 | [Tries](./tries/README.md) |
+| 24 | [Segment Trees](./segment-trees/README.md) |
+| 25 | [Fenwick Trees](./fenwick-trees/README.md) |
+| 26 | [Disjoint Set Union](./disjoint-set-union/README.md) |
+| 27 | [Graphs](./graphs/README.md) |
+| 28 | [Greedy Algorithms](./greedy-algorithms/README.md) |
+| 29 | [Dynamic Programming](./dynamic-programming/README.md) |
+| 30 | [String Algorithms](./string-algorithms/README.md) |
+| 31 | [Number Theory](./number-theory/README.md) |
+| 32 | [Computational Geometry](./computational-geometry/README.md) |
+| 33 | [Advanced Data Structures](./advanced-data-structures/README.md) |
+| 34 | [Advanced Algorithms](./advanced-algorithms/README.md) |
+| 35 | [Interview Patterns](./interview-patterns/README.md) |
+| 36 | [Practice Sheets](./practice-sheets/README.md) |
 
 Each module is designed to prepare learners for the next stage of the roadmap.
 
