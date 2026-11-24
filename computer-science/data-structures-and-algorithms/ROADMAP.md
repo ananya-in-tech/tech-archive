@@ -237,7 +237,7 @@ Contributions are welcome in many forms, including:
 * Reporting issues
 * Suggesting new learning resources
 
-Please read the project's [`CONTRIBUTING.md`](../CONTRIBUTING.md) before submitting a pull request.
+Please read the project's [`CONTRIBUTING.md`](../../../CONTRIBUTING.md) before submitting a pull request.
 
 ---
 
