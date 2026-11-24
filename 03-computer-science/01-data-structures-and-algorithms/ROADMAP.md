@@ -84,42 +84,42 @@ The topics are arranged in a recommended learning sequence. Following this order
 
 | Module | Topic |
 | :--- | :--- |
-| 01 | [Introduction](./introduction/README.md) |
-| 02 | [Time and Space Complexity](./time-and-space-complexity/README.md) |
-| 03 | [Mathematics for DSA](./mathematics-for-dsa/README.md) |
-| 04 | [Arrays](./arrays/README.md) |
-| 05 | [Strings](./strings/README.md) |
-| 06 | [Searching](./searching/README.md) |
-| 07 | [Sorting](./sorting/README.md) |
-| 08 | [Bit Manipulation](./bit-manipulation/README.md) |
-| 09 | [Hashing](./hashing/README.md) |
-| 10 | [Prefix Sum](./prefix-sum/README.md) |
-| 11 | [Two Pointers](./two-pointers/README.md) |
-| 12 | [Sliding Window](./sliding-window/README.md) |
-| 13 | [Linked Lists](./linked-lists/README.md) |
-| 14 | [Stacks](./stacks/README.md) |
-| 15 | [Queues](./queues/README.md) |
-| 16 | [Recursion](./recursion/README.md) |
-| 17 | [Backtracking](./backtracking/README.md) |
-| 18 | [Binary Search](./binary-search/README.md) |
-| 19 | [Divide and Conquer](./divide-and-conquer/README.md) |
-| 20 | [Trees](./trees/README.md) |
-| 21 | [Binary Search Trees](./binary-search-trees/README.md) |
-| 22 | [Heaps and Priority Queues](./heaps-and-priority-queues/README.md) |
-| 23 | [Tries](./tries/README.md) |
-| 24 | [Segment Trees](./segment-trees/README.md) |
-| 25 | [Fenwick Trees](./fenwick-trees/README.md) |
-| 26 | [Disjoint Set Union](./disjoint-set-union/README.md) |
-| 27 | [Graphs](./graphs/README.md) |
-| 28 | [Greedy Algorithms](./greedy-algorithms/README.md) |
-| 29 | [Dynamic Programming](./dynamic-programming/README.md) |
-| 30 | [String Algorithms](./string-algorithms/README.md) |
-| 31 | [Number Theory](./number-theory/README.md) |
-| 32 | [Computational Geometry](./computational-geometry/README.md) |
-| 33 | [Advanced Data Structures](./advanced-data-structures/README.md) |
-| 34 | [Advanced Algorithms](./advanced-algorithms/README.md) |
-| 35 | [Interview Patterns](./interview-patterns/README.md) |
-| 36 | [Practice Sheets](./practice-sheets/README.md) |
+| 01 | [Introduction](./01-introduction/README.md) |
+| 02 | [Time and Space Complexity](./02-time-and-space-complexity/README.md) |
+| 03 | [Mathematics for DSA](./03-mathematics-for-dsa/README.md) |
+| 04 | [Arrays](./04-arrays/README.md) |
+| 05 | [Strings](./05-strings/README.md) |
+| 06 | [Searching](./06-searching/README.md) |
+| 07 | [Sorting](./07-sorting/README.md) |
+| 08 | [Bit Manipulation](./08-bit-manipulation/README.md) |
+| 09 | [Hashing](./09-hashing/README.md) |
+| 10 | [Prefix Sum](./10-prefix-sum/README.md) |
+| 11 | [Two Pointers](./11-two-pointers/README.md) |
+| 12 | [Sliding Window](./12-sliding-window/README.md) |
+| 13 | [Linked Lists](./13-linked-lists/README.md) |
+| 14 | [Stacks](./14-stacks/README.md) |
+| 15 | [Queues](./15-queues/README.md) |
+| 16 | [Recursion](./16-recursion/README.md) |
+| 17 | [Backtracking](./17-backtracking/README.md) |
+| 18 | [Binary Search](./18-binary-search/README.md) |
+| 19 | [Divide and Conquer](./19-divide-and-conquer/README.md) |
+| 20 | [Trees](./20-trees/README.md) |
+| 21 | [Binary Search Trees](./21-binary-search-trees/README.md) |
+| 22 | [Heaps and Priority Queues](./22-heaps-and-priority-queues/README.md) |
+| 23 | [Tries](./23-tries/README.md) |
+| 24 | [Segment Trees](./24-segment-trees/README.md) |
+| 25 | [Fenwick Trees](./25-fenwick-trees/README.md) |
+| 26 | [Disjoint Set Union](./26-disjoint-set-union/README.md) |
+| 27 | [Graphs](./27-graphs/README.md) |
+| 28 | [Greedy Algorithms](./28-greedy-algorithms/README.md) |
+| 29 | [Dynamic Programming](./29-dynamic-programming/README.md) |
+| 30 | [String Algorithms](./30-string-algorithms/README.md) |
+| 31 | [Number Theory](./31-number-theory/README.md) |
+| 32 | [Computational Geometry](./32-computational-geometry/README.md) |
+| 33 | [Advanced Data Structures](./33-advanced-data-structures/README.md) |
+| 34 | [Advanced Algorithms](./34-advanced-algorithms/README.md) |
+| 35 | [Interview Patterns](./35-interview-patterns/README.md) |
+| 36 | [Practice Sheets](./36-practice-sheets/README.md) |
 
 Each module is designed to prepare learners for the next stage of the roadmap.
 
@@ -237,7 +237,7 @@ Contributions are welcome in many forms, including:
 * Reporting issues
 * Suggesting new learning resources
 
-Please read the project's [`CONTRIBUTING.md`](../../../CONTRIBUTING.md) before submitting a pull request.
+Please read the project's [`CONTRIBUTING.md`](../../CONTRIBUTING.md) before submitting a pull request.
 
 ---
 
