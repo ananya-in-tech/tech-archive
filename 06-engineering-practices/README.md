@@ -15,4 +15,4 @@ Patterns and practices for building software that is reliable, secure, maintaina
 - Performance engineering and observability
 - Reliability, security, and operational readiness
 
-Keep conceptual engineering material here. Framework-specific implementation tutorials belong in [Software Development](../04-software-development/README.md).
+Keep conceptual engineering material here. Framework-specific implementation tutorials belong in [Software Development](../software-development/README.md).
