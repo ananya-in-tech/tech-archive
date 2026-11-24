@@ -24,4 +24,4 @@ The previous DSA collection is being retained and organized under this directory
 
 Continue using the topic modules for comprehensive concept explanations and problem-solving practice. Add curated courses, books, research, and references where useful. Keep supporting diagrams and attachments close to their relevant topic.
 
-For interview-specific preparation strategies and mock assessments, see [Interview Preparation](../../../interview-preparation/README.md).
+For interview-specific preparation strategies and mock assessments, see [Interview Preparation](../../07-interview-preparation/README.md).
