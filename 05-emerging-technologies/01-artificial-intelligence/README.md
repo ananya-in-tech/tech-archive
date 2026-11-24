@@ -17,4 +17,4 @@ Resources about AI concepts, intelligent systems, and the engineering of AI-powe
 
 Curate foundational courses, technical documentation, model and framework guides, research papers, evaluation resources, and practical projects. Include model or framework versions when relevant.
 
-For statistical learning and neural-network fundamentals, see [Machine Learning](../machine-learning/README.md).
+For statistical learning and neural-network fundamentals, see [Machine Learning](../02-machine-learning/README.md).
