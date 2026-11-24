@@ -14,4 +14,4 @@ Practical resources for designing, building, testing, deploying, and maintaining
 
 Keep framework-specific tutorials with the relevant platform or development domain. Include the technology/version where it affects accuracy, and prefer official documentation for reference material.
 
-For architecture, design patterns, testing strategy, deployment practices, and distributed systems, see [Engineering Practices](../06-engineering-practices/README.md).
+For architecture, design patterns, testing strategy, deployment practices, and distributed systems, see [Engineering Practices](../engineering-practices/README.md).
