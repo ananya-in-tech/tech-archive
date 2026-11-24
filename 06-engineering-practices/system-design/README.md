@@ -18,4 +18,4 @@ Resources for reasoning about the architecture, behavior, scale, and operational
 
 Organize system design notes, architecture diagrams, case studies, reference architectures, and interview exercises here. Explain trade-offs and assumptions rather than presenting one design as universally correct.
 
-For interview-specific prompts and mock exercises, also see [System Design Interviews](../../07-interview-preparation/README.md).
+For interview-specific prompts and mock exercises, also see [System Design Interviews](../../interview-preparation/README.md).
