@@ -4,7 +4,9 @@ Patterns and practices for building software that is reliable, secure, maintaina
 
 ## Areas
 
-- [System Design](system-design/README.md)
+The numbered directories indicate the suggested order of the structured subject guides.
+
+- [System Design](01-system-design/README.md)
 - Software architecture and architectural styles
 - Design patterns and object-oriented design
 - Distributed systems
