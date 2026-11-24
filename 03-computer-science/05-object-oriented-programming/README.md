@@ -12,4 +12,4 @@ Resources for object-oriented principles, modeling, composition, inheritance, po
 - Coupling, cohesion, and responsibility
 - Object-oriented design exercises
 
-Keep language-specific syntax in the relevant [Programming](../../programming/README.md) section and design-pattern material in [Engineering Practices](../../engineering-practices/README.md).
+Keep language-specific syntax in the relevant [Programming](../../02-programming/README.md) section and design-pattern material in [Engineering Practices](../../06-engineering-practices/README.md).
