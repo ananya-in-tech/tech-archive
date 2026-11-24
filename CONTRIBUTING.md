@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD041 -->
 <div align="center">
   <h1>🤝 Contributing to Tech Archive</h1>
-  <p><b>An elegant, community-driven ecosystem designed for mastering Data Structures and Algorithms.</b></p>
+  <p><b>A community-driven archive for learning computer science and software engineering.</b></p>
 
   <a href="https://github.com/ananya-in-tech/tech-archive">
     <img src="https://img.shields.io/github/repo-size/ananya-in-tech/tech-archive?color=4B6973&labelColor=0D0D0D&style=flat-square" alt="Repo Size">
@@ -24,7 +24,7 @@ First off, thank you for considering contributing to **Tech Archive**! 🎉
 Whether you are fixing a typo, adding an optimized solution, breaking down an advanced Dynamic Programming pattern, improving workflow automation, or helping a peer debug an edge case in the Doubt Box—**your contribution matters**.
 
 This repository is built around a dual-pillar ecosystem:
-1. **The Vault (Repository Core):** Topic-wise structured notes, conceptual breakdowns, curated problem lists, and multi-language solutions.
+1. **The Learning Library:** Topic-wise notes, curated resources, practice material, and learning paths across computer science and software engineering.
 2. **The Forum (GitHub Discussions):** Real-time problem breakdowns, automated LeetCode, Codeforces & AtCoder briefings, contest strategy chats, and Q&A debugging.
 
 Before contributing, please take a moment to read this guide to ensure your work aligns with our codebase design principles, directory structure, and community vision.
@@ -49,8 +49,8 @@ There are many ways to contribute to this ecosystem:
 
 | Contribution Area | Description | Where it Happens |
 | :--- | :--- | :--- |
-| **📁 Code Solutions** | Add optimal or multi-approach solutions (C++, Java, Python, Go, JS/TS, Rust). | **The Vault** (`DSA/` subdirectories) |
-| **📚 Topic Notes & Diagrams** | Enhance conceptual explanations, add visual diagrams, or update `Practice.md` sheets. | **The Vault** (`DSA/` subdirectories) |
+| **📁 Code Solutions** | Add optimal or multi-approach solutions (C++, Java, Python, Go, JS/TS, Rust). | The relevant subject under `computer-science/`, `technology-domains/`, or `projects-and-practice/` |
+| **📚 Topic Notes & Diagrams** | Improve original notes, add diagrams, or curate practice material. | The relevant subject directory |
 | **🤖 Automated Discussions** | Start problem study threads in the LeetCode, Codeforces or AtCoder Arena using automated bots. | **The Forum** (Discussions tab) |
 | **❓ Peer Debugging** | Help resolve failing test cases or edge cases in **The Doubt Box**. | **The Forum** (Discussions tab) |
 | **🛠️ Automation & Tooling** | Improve GitHub Actions workflows (`.github/workflows/`) or issue blueprints. | Repository Root |
@@ -89,27 +89,28 @@ git checkout -b fix/lc-fetcher-script
 ```
 
 ### 3️⃣ Follow the Repository Directory Structure
-Organize your solutions and notes within the appropriate module folder under `DSA/`:
+Organize contributions by subject, not by file format. A topic can start with this small structure and grow only when its content needs it:
 
 ```text
-DSA/
-├── 01_Introduction/
-├── 02_Time_and_Space_complexity/
-├── 03_Mathematics_for_DSA/
-├── 04_Arrays_Strings/
-│   ├── README.md             # Topic conceptual breakdown & intuition
-│   ├── Practice.md           # Curated problem lists (LeetCode, Codeforces, GFG)
-│   ├── Resources.md          # External reading materials & video links
-│   └── Two_Sum/              # Specific Problem Folder
-│       ├── README.md         # Problem explanation & approach breakdown
-│       ├── solution.cpp      # C++ implementation
-│       ├── solution.py       # Python implementation
-│       └── solution.java     # Java implementation
-└── ...
+computer-science/dsa/topics/arrays/
+├── README.md                 # Original notes and concept overview
+├── resources.md              # Curated external links, clearly labeled
+├── practice/                 # Exercises or solutions, when useful
+└── assets/                   # Diagrams and permitted supporting files
 ```
 
 > [!IMPORTANT]
-> **No Root Dumps:** Do not create loose source files in the repository root directory. Always place code inside the relevant topic directory under `DSA/`.
+> **No Root Dumps:** Keep learning content in its canonical subject directory. Keep repository-wide `branding/`, `scripts/`, and `.github/` infrastructure at the root.
+
+Learning paths should link to canonical subject pages rather than copy notes. Name subject, topic, and subtopic directories in lowercase kebab-case. Keep top-level subject names unnumbered; prefix ordered sibling subtopics with two digits (`01-`, `02-`). For ordered directories that can contain 100 or more entries, use three digits from the start (`001-`, `002-`) so the sort order remains consistent.
+
+### Resource Curation and Licensing
+
+Prefer free-first resources and identify the access level of each item as **Free**, **Freemium**, or **Paid**. GeeksforGeeks is a useful, prominent starting point for accessible DSA explanations, practice, CS interview topics, and interview preparation; its depth and freshness vary by article, and some offerings are paid. Pair it with primary or official references where available rather than treating any one publisher as authoritative.
+
+For each entry in `resources.md`, record its title, URL, topic, format, level, access level, source type (`Official`, `Course`, `Tutorial`, `Practice`, or `Community`), and last-checked date. Mark company-specific interview reports as community-reported and potentially outdated. Do not imply that any resource guarantees employment.
+
+Keep external links distinct from original notes. Place diagrams and other supporting files beside the topic they explain, under `assets/` when needed. Add PDFs only when redistribution is permitted, and document their source and license; otherwise link to the original source instead.
 
 ---
 
@@ -134,7 +135,7 @@ To maintain high technical depth and interview readiness, please follow these gu
 4. **Multiple Approaches:** When possible, demonstrate progression from Brute Force ➔ Better ➔ Optimal solution.
 
 ### Topic Documentation (`README.md`) Standards
-When writing or improving conceptual guides in `DSA/`:
+When writing or improving a conceptual guide in any subject directory:
 * Include an **Intuition & Real-world Motivation** section.
 * Provide **Visual Diagrams** (using ASCII art or Mermaid diagrams).
 * Highlight **Common Pitfalls & Edge Cases** (e.g., integer overflow, empty inputs, null pointers).

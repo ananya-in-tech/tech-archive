@@ -75,35 +75,19 @@ Got questions, ideas, or want to showcase what you're building? Join our Discord
 
 <p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
-## 📁 The Vault: Repository Structure
+## 📁 The Learning Library
 
-> Coming soon... (under build)
->
+Tech Archive is growing from its Data Structures and Algorithms roots into a broad, community-maintained software-engineering learning archive. Browse by subject, and use learning paths to connect canonical material without duplicating it.
 
-This repository avoids chaotic file dumps by organizing all code and resources into clean, **topic-wise folders**. This makes tracking progress and finding study materials completely frictionless.
+| Area | Contents |
+| :--- | :--- |
+| [Computer Science](computer-science/README.md) | [DSA](computer-science/dsa/README.md), core subjects, and system design |
+| [Technology Domains](technology-domains/README.md) | AI and ML, data science, cybersecurity, blockchain, web, mobile, and cloud |
+| [Career Preparation](career-prep/README.md) | Interview, internship, resume, and portfolio preparation |
+| [Learning Paths](learning-paths/README.md) | Curated routes through canonical subject material |
+| [Projects and Practice](projects-and-practice/README.md) | Project ideas and hands-on labs |
 
-
-```text
-├── 01_Arrays/
-│   ├── README.md              
-│   └── Two_Sum/
-│       └── ... and so on/
-|       |
-├── 02_Linked_Lists/
-├── 03_Stacks_Queues/
-|       |
-|       |
-|       ... and so on/
-|       |
-├── 09_Trees_Heaps/
-└── 12_Dynamic_Programming/
-
-```
-
-### Inside Every Topic Folder:
-
-* **The `README.md`:** Holds the conceptual breakdown of the pattern, curated problem lists (Striver/NeetCode), and hidden edge cases to look out for.
-* **The Solutions:** Well-documented source files showcasing multiple optimal approaches to the exact same problem.
+Keep notes, curated resources, practice material, and permitted supporting assets together with their subject. See [CONTRIBUTING.md](CONTRIBUTING.md) for the topic template and resource-curation policy.
 
 <p align="center"><img src="branding/divider.png" alt="" width="100%"></p>
 
