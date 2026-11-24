@@ -40,16 +40,16 @@ The goal is to help learners build strong fundamentals, explore technologies, be
 
 | Category | What you'll find |
 | --- | --- |
-| [01 · Foundations](01-foundations/README.md) | Mathematics, discrete mathematics, probability, statistics, and computational thinking |
-| [02 · Programming](02-programming/README.md) | Programming languages, programming paradigms, and language fundamentals |
-| [03 · Computer Science](03-computer-science/README.md) | DSA, operating systems, networks, databases, OOP, and core CS subjects |
-| [04 · Software Development](04-software-development/README.md) | Web, mobile, desktop, game, and API development |
-| [05 · Emerging Technologies](05-emerging-technologies/README.md) | Artificial intelligence, machine learning, data science, cybersecurity, blockchain, and cloud |
-| [06 · Engineering Practices](06-engineering-practices/README.md) | System design, architecture, distributed systems, testing, DevOps, and engineering quality |
-| [07 · Interview Preparation](07-interview-preparation/README.md) | Coding interviews, technical rounds, machine coding, and interview experiences |
-| [08 · Career Resources](08-career-resources/README.md) | Resumes, internships, job search, open source, and professional communication |
-| [09 · Projects & Practice](09-projects-and-practice/README.md) | Project ideas, guided practice, case studies, and hands-on exercises |
-| [10 · Learning Roadmaps](10-learning-roadmaps/README.md) | Curated learning sequences for engineering domains and career goals |
+| [Foundations](foundations/README.md) | Mathematics, discrete mathematics, probability, statistics, and computational thinking |
+| [Programming](programming/README.md) | Programming languages, programming paradigms, and language fundamentals |
+| [Computer Science](computer-science/README.md) | DSA, operating systems, networks, databases, OOP, and core CS subjects |
+| [Software Development](software-development/README.md) | Web, mobile, desktop, game, and API development |
+| [Emerging Technologies](emerging-technologies/README.md) | Artificial intelligence, machine learning, data science, cybersecurity, blockchain, and cloud |
+| [Engineering Practices](engineering-practices/README.md) | System design, architecture, distributed systems, testing, DevOps, and engineering quality |
+| [Interview Preparation](interview-preparation/README.md) | Coding interviews, technical rounds, machine coding, and interview experiences |
+| [Career Resources](career-resources/README.md) | Resumes, internships, job search, open source, and professional communication |
+| [Projects & Practice](projects-and-practice/README.md) | Project ideas, guided practice, case studies, and hands-on exercises |
+| [Learning Roadmaps](learning-roadmaps/README.md) | Curated learning sequences for engineering domains and career goals |
 
 ## How resources are organized
 
@@ -72,21 +72,21 @@ These are conventions, not mandatory empty folders. Create only the directories 
 
 ```text
 tech-archive/
-├── 01-foundations/
-├── 02-programming/
-├── 03-computer-science/
+├── foundations/
+├── programming/
+├── computer-science/
 │   ├── data-structures-and-algorithms/
 │   ├── operating-systems/
 │   ├── computer-networks/
 │   ├── database-management-systems/
 │   └── object-oriented-programming/
-├── 04-software-development/
-├── 05-emerging-technologies/
-├── 06-engineering-practices/
-├── 07-interview-preparation/
-├── 08-career-resources/
-├── 09-projects-and-practice/
-├── 10-learning-roadmaps/
+├── software-development/
+├── emerging-technologies/
+├── engineering-practices/
+├── interview-preparation/
+├── career-resources/
+├── projects-and-practice/
+├── learning-roadmaps/
 ├── branding/                    # Project identity and visual assets
 ├── scripts/                     # Repository automation
 ├── .github/                     # Workflows, templates, and policies
