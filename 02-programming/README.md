@@ -23,4 +23,4 @@ A home for programming-language fundamentals, language-specific learning materia
 - Generics, collections, and standard libraries
 - Functional, procedural, and object-oriented paradigms
 
-Keep language-specific material inside a clearly named language directory. Prefer official language documentation and versioned references. Do not duplicate general DSA or core-CS notes here; link to their canonical locations in [Computer Science](../computer-science/README.md).
+Keep language-specific material inside a clearly named language directory. Prefer official language documentation and versioned references. Do not duplicate general DSA or core-CS notes here; link to their canonical locations in [Computer Science](../03-computer-science/README.md).
